@@ -1,0 +1,154 @@
+{
+    "estudiantes": {
+        "1": {
+            "codigo": "1",
+            "nombre": "steven",
+            "sexo": "m",
+            "edad": 17,
+            "grupo": "1",
+            "modulos": [
+                "1",
+                "3"
+            ]
+        },
+        "2": {
+            "codigo": "2",
+            "nombre": "stev",
+            "sexo": "m",
+            "edad": 17,
+            "grupo": "1",
+            "modulos": [
+                "2",
+                "3"
+            ]
+        },
+        "3": {
+            "codigo": "3",
+            "nombre": "marcos",
+            "sexo": "m",
+            "edad": 17,
+            "grupo": "1",
+            "modulos": [
+                "1",
+                "3"
+            ]
+        },
+        "4": {
+            "codigo": "4",
+            "nombre": "luis",
+            "sexo": "m",
+            "edad": 17,
+            "grupo": "2",
+            "modulos": [
+                "1",
+                "2"
+            ]
+        },
+        "10": {
+            "codigo": "10",
+            "nombre": "luis",
+            "sexo": "f",
+            "edad": 32,
+            "grupo": "1",
+            "modulos": [
+                "3"
+            ]
+        }
+    },
+    "grupos": {
+        "1": {
+            "codigo": "1",
+            "nombre": "grupo1",
+            "sigla": "G1"
+        },
+        "2": {
+            "codigo": "1",
+            "nombre": "grupo1",
+            "sigla": "G1"
+        },
+        "3": {
+            "codigo": "1",
+            "nombre": "grupo1",
+            "sigla": "G1"
+        },
+        "4": {
+            "codigo": "1",
+            "nombre": "grupo1",
+            "sigla": "G1"
+        },
+        "10": {
+            "codigo": "10",
+            "nombre": "ingles",
+            "sigla": "ig"
+        }
+    },
+    "modulos": {
+        "1": {
+            "codigo": "1",
+            "nombre": "java",
+            "semanas": 4,
+            "horaInicio": "18:31",
+            "horaSalida": "18:33",
+            "docentes": [
+                {
+                    "cedula": "123456789",
+                    "nombre": "alex"
+                }
+            ],
+            "asistencias": [
+                {
+                    "estudiante": "1",
+                    "modulo": "1",
+                    "fecha": "24/09/2024",
+                    "hora": "18:30",
+                    "salida": "18:31"
+                }
+            ]
+        },
+        "2": {
+            "codigo": "1",
+            "nombre": "jS",
+            "semanas": 4,
+            "horaInicio": "20:00",
+            "horaSalida": "21:00",
+            "docentes": [
+                {
+                    "cedula": "123456789",
+                    "nombre": "alex"
+                }
+            ],
+            "asistencias": [
+                {
+                    "estudiante": "2",
+                    "modulo": "2",
+                    "fecha": "24/09/2024",
+                    "hora": "21:41",
+                    "salida": "21:41"
+                }
+            ]
+        },
+        "3": {
+            "codigo": "3",
+            "nombre": "SCRUM",
+            "semanas": 4,
+            "horaInicio": "06:00",
+            "horaSalida": "08:30",
+            "docentes": [
+                {
+                    "cedula": "123456789",
+                    "nombre": "alex"
+                }
+            ],
+            "asistencias": []
+        },
+        "8": {
+            "codigo": "8",
+            "nombre": "ser",
+            "semanas": 7,
+            "horaInicio": "09:00",
+            "horaSalida": "11:00",
+            "docentes": [],
+            "asistencias": []
+        }
+    }
+}
